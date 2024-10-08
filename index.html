@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea6</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Formulario</h1>
+
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" class="form-control" placeholder="Asunto">
+            <small class="error-msg" id="asunto-error"></small>
+        </div>
+
+        <div class="form-group">
+            <label for="cc">CC (Correo electrónico):</label>
+            <input type="email" id="cc" class="form-control" placeholder="Correo electrónico">
+            <small class="error-msg" id="cc-error"></small>
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" class="form-control" rows="5" placeholder="Escribe tu mensaje"></textarea>
+            <small class="error-msg" id="mensaje-error"></small>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
